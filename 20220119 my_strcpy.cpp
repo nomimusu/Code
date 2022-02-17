@@ -3,13 +3,13 @@
 
 char* my_strlen(char* dest, const char* src)
 {
-	//±£Ö¤ÊäÈëÖµºÏ·¨£¬²»ÊÇ¿ÕÖ¸Õë
+	//ä¿è¯è¾“å…¥å€¼åˆæ³•ï¼Œä¸æ˜¯ç©ºæŒ‡é’ˆ
 	assert(dest != NULL);
 	assert(src != NULL);
 
 	char* ret = dest;
 
-	//const½«srcd´æ´¢¿Õ¼äµÄÊı¾İÉèÖÃÎª³£Á¿
+	//constå°†srcçš„å­˜å‚¨ç©ºé—´çš„æ•°æ®è®¾ç½®ä¸ºå¸¸é‡
 	while (*dest++ = *src++)
 	{
 		;
