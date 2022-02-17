@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <assert.h>
 
-char* my_strlen(char* dest, const char* src)
+char* my_strcpy(char* dest, const char* src)
 {
 	//保证输入值合法，不是空指针
 	assert(dest != NULL);
@@ -25,7 +25,7 @@ int main()
 {
 	char arr1[] = "################";
 	char arr2[] = "bit";
-	my_strlen(arr1, arr2);
+	my_strcpy(arr1, arr2);
 	printf("%s\n", arr1);
 	return 0;
 }
